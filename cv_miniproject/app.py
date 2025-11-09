@@ -51,7 +51,8 @@ if uploaded_file is not None:
         st.image(bilateral_blur_rgb, caption="Bilateral Blur", use_column_width=True)
 
     with col2:
-        st.subheader("😊 Facial Expression Analysis ")
+        st.subheader("😊 Facial Expression Analysis " \
+        "")
 
         try:
             from deepface import DeepFace
